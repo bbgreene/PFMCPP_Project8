@@ -19,7 +19,8 @@ your task:
     1) Fix the include errors. 
 
     2) HighwayPatrol can check the speed of vehicles on the highway. 
-        make this happen without adding getters to the Highway or Vehicle class
+        make this happen *without* adding getters to the Highway or Vehicle class 
+        and *without* making any private member variables public
 
     3) implement the Highway::addVehicleInternal 
         this function should call the non-evasive member function of the derived class, so use the technique shown in the Casting video.
@@ -38,6 +39,8 @@ your task:
     9) clear any warnings as best you can, based on what you've learned in the previous projects
         see the note in main() about implementing the special member functions.
         This will clear a lot of warnings if implemented correctly.
+    
+    10) correct any unnecessary keywords related to access specifiers used in the UDTs.
  */
 
 #include <iostream>
