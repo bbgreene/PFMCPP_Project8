@@ -7,7 +7,7 @@ struct SemiTruck : Vehicle
     SemiTruck(const std::string& name);
     ~SemiTruck();
     SemiTruck(const SemiTruck&);
-    SemiTruck& operator = (const SemiTruck&);
+    SemiTruck& operator=(const SemiTruck&);
 
 
     void flashLights();

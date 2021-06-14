@@ -8,7 +8,7 @@ struct HighwayPatrol : Vehicle
     HighwayPatrol();
     ~HighwayPatrol();
     HighwayPatrol(const HighwayPatrol&);
-    HighwayPatrol& operator = (const HighwayPatrol&);
+    HighwayPatrol& operator=(const HighwayPatrol&);
 
     void scanHighway(Highway* h);
 
