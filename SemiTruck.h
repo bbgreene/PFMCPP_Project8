@@ -11,4 +11,5 @@ struct SemiTruck : Vehicle
 
 
     void flashLights();
+    void pullOver();
 };

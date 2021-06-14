@@ -9,6 +9,12 @@ SemiTruck& SemiTruck::operator=(const SemiTruck&) = default;
 
 void SemiTruck::flashLights()
 {
-    setSpeed(60);
+    setSpeed(40);
     std::cout << name << ": Flashing lights!" << std::endl;
+}
+
+void SemiTruck::pullOver()
+{
+    setSpeed(0);
+    std::cout << name << ": License?, sure!" << std::endl;
 }
