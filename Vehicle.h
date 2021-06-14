@@ -6,8 +6,8 @@
 struct HighwayPatrol;
 struct Vehicle
 {
-    Vehicle(const std::string& n);
-    virtual ~Vehicle();
+    Vehicle(const std::string& n) : name(n) { }
+    virtual ~Vehicle() = default;
     Vehicle(const Vehicle&) = default;
     Vehicle& operator=(const Vehicle&) = default;
     

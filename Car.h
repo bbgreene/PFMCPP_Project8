@@ -10,5 +10,5 @@ struct Car : Vehicle
 
     void closeWindows();
 
-    void tryToEvade();
+    void tryToEvade() override;
 };
