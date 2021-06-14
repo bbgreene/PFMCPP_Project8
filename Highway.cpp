@@ -1,4 +1,9 @@
 #include "Highway.h"
+#include "HighwayPatrol.h"
+#include "Vehicle.h"
+#include "Car.h"
+#include "Motorcycle.h"
+#include "SemiTruck.h"
 
 #include <cassert>
 
@@ -13,7 +18,7 @@ void Highway::changeSpeed(int newSpeed)
 
 void Highway::addVehicleInternal(Vehicle* v)
 {
-    assert(false);
+    //assert(false);
 
     /*
     depending on the derived type, call the member function that doesn't evade the cops. 
@@ -22,7 +27,7 @@ void Highway::addVehicleInternal(Vehicle* v)
 
 void Highway::removeVehicleInternal(Vehicle* v)
 {
-    assert(false);
+    //assert(false);
 
     /*
     depending on the derived type, call the member function that tries to evade the cops. 
